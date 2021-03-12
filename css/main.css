@@ -15,20 +15,32 @@ a {
 }
 
 .bg-image {
-    background-image: url("/img/mountain.jpg");    
-    height: 100%; 
+    background-image: url("/img/mountain.jpg");
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
 
-  .txt-primary {
-      color: #ffffff;
-  }
+.flex-start-end {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
 
-  .border-none {
-      border: none;
-  }
+.search-icon {
+    margin-left: -2rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.txt-primary {
+    color: #ffffff;
+}
+
+.border-none {
+    border: none;
+}
 
 /* .bg-image-blur {
      filter: blur(1rem);
@@ -51,6 +63,10 @@ a {
 
 .border-white {
     border: 1px solid white;
+}
+
+.opacity {
+    opacity: 0.5;
 }
 
 /* positioning */
@@ -83,6 +99,10 @@ a {
     width: 35%;
 }
 
+.w-45 {
+    width: 45%;
+}
+
 .w-50 {
     width: 50%;
 }
@@ -96,6 +116,10 @@ a {
 }
 
 /* spacing */
+
+.p-half {
+    padding: .75rem;
+}
 
 .p-1 {
     padding: 1rem;
